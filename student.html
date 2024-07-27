@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,38 +23,38 @@
             color:red;
         }
         #pre{
-            font-size:20px;
+            font-size:18px;
         }
         #PN{
             border:0px;
             width:400px;
-            font-size:20px;
+            font-size:18px;
         }
         #Pc{
             border:0px;
-            font-size:20px;
+            font-size:18px;
             width:290px;
         }
         #Ss{
             border:0px;
-            font-size:20px;
+            font-size:18px;
             width:400px;
         }
         #Ps{
             text-align:center;
             border:0px;
-            font-size:20px;
+            font-size:18px;
             width:50px;
         }
         #Ot{
             border:0px;
             width:40px;
-            font-size:20px;
+            font-size:18px;
         }
         #Nc{
             text-align:center;
             border:0px;
-            font-size:20px;
+            font-size:18px;
             width:50px;
         }
         #tr{
@@ -68,17 +67,17 @@
         }
         .TM{
             width:45px;
-            font-size:20px;
+            font-size:18px;
             border:0;
         }
         #AVG{
             width: 50px;
-            font-size: 20px;
+            font-size: 18px;
             border: 0px;
         }
         .Ct{
             width:940px;
-            font-size:20px;
+            font-size:18px;
         }
         .checkbox{
             width: 15px;
@@ -86,7 +85,7 @@
         }
         .comment{
             border-top:1px;
-            font-size:20px;
+            font-size:18px;
             height:16px;
             width:840px
         }
@@ -99,7 +98,7 @@
     font-size: 10px;
    }
     #h1{
-        font-size: 15px;
+        font-size: 13px;
             text-align: center;
             padding: 0;
             color: darkblue;
@@ -191,7 +190,7 @@
         font-size: 10px;
     }
     #h1{
-        font-size: 15px;
+        font-size: 13px;
             text-align: center;
             padding: 0;
             color: darkblue;
@@ -282,8 +281,9 @@
         <div style="text-align:center"><label><mark style="background:darkblue;color:white;">REPORT SHEET</mark></label></div>
         <pre id="pre"><label>NAME OF PUPIL:<input id="PN"></label>              <label>C L  A S S :<input id="Pc"></label>
 <label>S E S S I O N:<input id="Ss"></label>              <label>PO-SI-TION :<input id="Ps"></label>
-<label>NO OF ATTENDANCE:<input id="Ot">OUT OF 130</label> 		               <label> NO IN CLASS:<input id="Nc"></label> </pre>
-        <table border=""> 
+<label>NO OF ATTENDANCE:<input id="Ot">OUT OF 130</label> 		                <label> NO IN CLASS:<input id="Nc"></label> </pre>						       
+
+<table border=""> 
         <tr id="tr" style= background:darkblue>
         <th  id="tr"style="color:white">S/N</th> 
         <pre id="tr"><th style="color:white;text-align:center"><pre id="tr">	    SUBJECTS          </pre></th></pre>
@@ -512,8 +512,8 @@
             <td class="tr" id="POT5" width="6" style= text-align:center></td>
             </tr>
             </table>
-            <pre id="tr"><label>MARKS OBTAINED:<input class="TM" id="TM"> OUT OF 2150</label>			   <label>AVERAGE:<input id="AVG"></label>
-<label>CLASS TEACHER'S COMMENT:<u><input class="Ct" type="text"></u></label></pre>
+            <pre id="tr"><label id="pre">MARKS OBTAINED:<input class="TM" id="TM"> OUT OF 2150</label>			   <label id="pre">AVERAGE:<input id="AVG"></label>
+<label id="pre">CLASS TEACHER'S COMMENT:<u><input class="Ct" type="text"></u></label></pre>
             &emsp;&emsp;&emsp;<label id="pre">AFFECTIVE REPORT</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label id="pre">PSYCHOMOTOR REPORT</label>&nbsp
             <table border="">
             <tr class="tr" style="color:white;background:darkblue">
@@ -655,12 +655,11 @@
 Next Term Fees:<input class="fee" type="text">Transportation:#<u>      </u>#Outstanding bills:	
 class Teacher's Remark/Signature: <input class="comment">
 Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre> 
-        </table>
-        
+        </table>    
     <pre><button id="submit"style="font-size:20px;text-align:center">submit</button> click upload to upload Result <button id="btn">Upload</butt></pre>
     <script>
         const btn = document.getElementById('btn')
-        btn.addEventListener('click', () => window.open('upload.html') );
+        btn.addEventListener('click', () => window.open('kk.html') );
         
 
         document.getElementById('submit').onclick = function() {
@@ -1359,18 +1358,18 @@ Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre>
             
             let AVG = TotalM/21.5;
             document.getElementById('AVG').value = AVG;
-               function uploadimage(){
+        }
+        function uploadimage(){
             var frame = document.getElementById("frame");
             frame.src = URL.createObjectURL(event.target.files[0]);
             frameValue = frame.src
             localStorage.setItem('Frame', frameValue);
         }
         const Frame = localStorage.getItem('Frame');
-    
+        
         document.getElementById('frame').src = Frame; 
-  }
-        }
-   
     </script>
 </body>
 </html>
+
+
