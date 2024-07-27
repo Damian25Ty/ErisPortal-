@@ -282,7 +282,7 @@
         <div style="text-align:center"><label><mark style="background:darkblue;color:white;">REPORT SHEET</mark></label></div>
         <pre id="pre"><label>NAME OF PUPIL:<input id="PN"></label>              <label>C L  A S S :<input id="Pc"></label>
 <label>S E S S I O N:<input id="Ss"></label>              <label>PO-SI-TION :<input id="Ps"></label>
-<label>NO OF ATTENDANCE:<input id="Ot">OUT OF 130</label> 		                <label> NO IN CLASS:<input id="Nc"></label> </pre>
+<label>NO OF ATTENDANCE:<input id="Ot">OUT OF 130</label> 		               <label> NO IN CLASS:<input id="Nc"></label> </pre>
         <table border=""> 
         <tr id="tr" style= background:darkblue>
         <th  id="tr"style="color:white">S/N</th> 
@@ -1360,13 +1360,15 @@ Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre>
             let AVG = TotalM/21.5;
             document.getElementById('AVG').value = AVG;
         }
-        const SName = localStorage.getItem('Tnames')
-  const SPass = localStorage.getItem('Tpasswords')
-  const LName = localStorage.getItem('TNames')
-  const LPass = localStorage.getItem('TPass')
-  const CPass = localStorage.getItem('CPass')
-  if (SName != LName & SPass != LPass & CPass ==""){
-    window.location.href="404.html";
+      function uploadimage(){
+            var frame = document.getElementById("frame");
+            frame.src = URL.createObjectURL(event.target.files[0]);
+            frameValue = frame.src
+            localStorage.setItem('Frame', frameValue);
+        }
+        const Frame = localStorage.getItem('Frame');
+    
+        document.getElementById('frame').src = Frame; 
   }
     </script>
 </body>
