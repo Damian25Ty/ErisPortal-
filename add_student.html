@@ -26,10 +26,9 @@
         Abtn.onclick = function(){
             Students.innerHTML += Student.value + "<br>";
             e.preventDefault();
-            Student.value =""
             const StudValue = Student.value;
             localStorage.setItem('Stud',StudValue)
-            window.location.href="NAMES.html";
+            Student.value =""
         }
        
         
