@@ -1355,6 +1355,9 @@ Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre>
             
             let AVG = TotalM/21.5;
             document.getElementById('AVG').value = AVG;
+           document.getElementById("submit").onclick = function(){
+        document.getElementById("submit").style.display = "none";
+    }
         }
         function uploadimage(){
             var frame = document.getElementById("frame");
@@ -1362,15 +1365,13 @@ Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre>
             frameValue = frame.src
             localStorage.setItem('Frame', frameValue);
         }
-           document.getElementById("submit").onclick = function(){
-        document.getElementById("submit").style.display = "none";
-    }
         const Frame = localStorage.getItem('Frame');
         
         document.getElementById('frame').src = Frame; 
     </script>
 </body>
 </html>
+
 
 
 
