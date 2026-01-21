@@ -9105,7 +9105,9 @@ btn.addEventListener('click', (e) => {
         error.style.display = "block";
     }
 */
-    document.getElementById("submit").remove();
+    document.getElementById("submit").onclick = function(){
+        document.getElementById("submit").style.display = "none";
+    }
     if (messages.length >0) {
              e.preventDefault();
     }
@@ -9113,5 +9115,6 @@ btn.addEventListener('click', (e) => {
 </script>
 </body>
 </html>
+
 
 
