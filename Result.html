@@ -46,11 +46,12 @@
     </style>
 </head>
 <body>
-    <br><br><br><br><br><br><br><br><br><br><br>
-    <div id="error"></div>
+    <h1 style="color: white; text-align:center;"> ALL STUDENTS NAME SHOULD BE IN UPPERCASE LETTER(CAPITAL LETTER)</h1>
+    <br><br><br><br><br><br><br><br>
+    <div id="error" style="color: red; display: none;">Invalid Credential. Please enter the correct Name and Pass-Code !</div>
     <fieldset id="form">
         <div>
-            <input type="text" name="name" placeholder="Name Of Student" id="name" style="font-size: large" required>
+            <input type="text" name="name" placeholder="Name Of Student" id="name" style="font-size: large;" required>
             <br>
             <br>
         </div>
@@ -65,27 +66,9049 @@
 const Code = document.getElementById('code')
 const Name = document.getElementById('name')
 const btn = document.getElementById('submit')
-const errrorElement = document.getElementById('error')
 btn.addEventListener('click', (e) => {
-    let messages = []
-                                         
-    if (Name.value == 'EDAFE JUSTICE' & Code.value === "121221") {
+    
+                        //STUDENTS SCRATCH CARD FOR PRE NURSERY 1 HONOUR
+                        
+    //1.
+    if (Name.value == 'EDAFE JUSTICE' & Code.value === "12DM21") {
         window.location.href="EDAFE JUSTICE.pdf"
     }
-    if (Name.value == 'ADEWALE ROLI' & Code.value === "121212") {
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == 'ADEWALE ROLI' & Code.value === "2DM112") {
         window.location.href="ADEWALE ROLI.pdf"
          }
-        //else{messsages.push('Invalid Credential. Please enter the correct Name and Pass-Code !')}
+    else{
+        error.style.display = "block";
+    }
+    
+    /*//3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
 
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR PRE NURSERY 1 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //-------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR NURSERY 1 HONOUR
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR NURSERY 1 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+//-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR PRE NURSERY 1 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR NURSERY 1 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+//-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR  NURSERY 1 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+//-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR NURSERY 1 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //-------------------------------------------------------------------------------------------
+
+    //STUDENTS SCRATCH CARD FOR NURSERY 2 HONOUR
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR NURSERY 2 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR NURSERY 3 ACHIEVER
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR NURSERY 3 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 1 HONOUR
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRRIMARY 1 ACHIEVER
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 1 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 2 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 2 ACHIEVER
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR 2 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 3 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR 3 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 3 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 4 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR PRIMARY 5
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+
+                        //HIGH SCHOOL
+ //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS1 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS1 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS1 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS2 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS2 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+         //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS2 BEST
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS3 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS3 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR JSS3 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR SS1 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR SS2 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+     //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR SS3 HONOURS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+         //-------------------------------------------------------------------------------------
+    //STUDENTS SCRATCH CARD FOR SS3 ACHIEVERS
+                        
+    //1.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    
+    //2.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+         }
+    else{
+        error.style.display = "block";
+    }
+    
+    //3.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //4.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //5.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //6.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //7.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //8.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //9.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //10.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //11.
+        if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //12.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //13.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //14.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //15.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //16.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //17.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //18.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //19.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //20.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //21.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //22.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //23.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //24.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //25.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //26.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //27.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //28.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+
+    //29.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+    
+    //30.
+    if (Name.value == '' & Code.value === "") {
+        window.location.href=""
+    }
+    else{
+        error.style.display = "block";
+    }
+*/
     if (messages.length >0) {
-             e.preventDefault()
-             errrorElement.innerText = messages.join(', ')
-            }
+             e.preventDefault();
+    }
     })
 </script>
 </body>
 </html>
-
-
-
-
