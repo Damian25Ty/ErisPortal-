@@ -656,7 +656,7 @@ Next Term Fees:<input class="fee" type="text">Transportation:#<u>      </u>#Outs
 class Teacher's Remark/Signature: <input class="comment">
 Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre> 
         </table>    
-    <pre><button id="submit"style="font-size:20px;text-align:center">submit</button>>
+    <pre><button id="submit"style="font-size:20px;text-align:center">submit</button>
     <script>
         
         document.getElementById('submit').onclick = function() {
@@ -1355,10 +1355,10 @@ Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre>
             
             let AVG = TotalM/21.5;
             document.getElementById('AVG').value = AVG;
-           document.getElementById("submit").onclick = function(){
+        }
+              document.getElementById("submit").onclick = function(){
         document.getElementById("submit").style.display = "none";
     }
-        }
         function uploadimage(){
             var frame = document.getElementById("frame");
             frame.src = URL.createObjectURL(event.target.files[0]);
@@ -1371,6 +1371,7 @@ Next Term Begins: 11th of January 2025</u>			<i>STAMP</i></pre>
     </script>
 </body>
 </html>
+
 
 
 
